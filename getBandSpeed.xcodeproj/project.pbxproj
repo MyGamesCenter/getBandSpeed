@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2394088198A32570031AA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2394087198A32570031AA0B /* Foundation.framework */; };
+		E239408D198A32570031AA0B /* getBandSpeed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E239408C198A32570031AA0B /* getBandSpeed.h */; };
+		E239408F198A32570031AA0B /* getBandSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = E239408E198A32570031AA0B /* getBandSpeed.m */; };
+		E2394096198A32580031AA0B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2394095198A32580031AA0B /* XCTest.framework */; };
+		E2394097198A32580031AA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2394087198A32570031AA0B /* Foundation.framework */; };
+		E2394099198A32580031AA0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2394098198A32580031AA0B /* UIKit.framework */; };
+		E239409C198A32580031AA0B /* libgetBandSpeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2394084198A32570031AA0B /* libgetBandSpeed.a */; };
+		E23940A2198A32580031AA0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E23940A0198A32580031AA0B /* InfoPlist.strings */; };
+		E23940A4198A32580031AA0B /* getBandSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23940A3198A32580031AA0B /* getBandSpeedTests.m */; };
+		E23940B2198A32A60031AA0B /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E23940AF198A32A60031AA0B /* AsyncSocket.m */; };
+		E23940B3198A32A60031AA0B /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E23940B1198A32A60031AA0B /* AsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E239409A198A32580031AA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E239407C198A32570031AA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2394083198A32570031AA0B;
+			remoteInfo = getBandSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2394082198A32570031AA0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E239408D198A32570031AA0B /* getBandSpeed.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2394084198A32570031AA0B /* libgetBandSpeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgetBandSpeed.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2394087198A32570031AA0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E239408B198A32570031AA0B /* getBandSpeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "getBandSpeed-Prefix.pch"; sourceTree = "<group>"; };
+		E239408C198A32570031AA0B /* getBandSpeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getBandSpeed.h; sourceTree = "<group>"; };
+		E239408E198A32570031AA0B /* getBandSpeed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getBandSpeed.m; sourceTree = "<group>"; };
+		E2394094198A32580031AA0B /* getBandSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getBandSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2394095198A32580031AA0B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E2394098198A32580031AA0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E239409F198A32580031AA0B /* getBandSpeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "getBandSpeedTests-Info.plist"; sourceTree = "<group>"; };
+		E23940A1198A32580031AA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E23940A3198A32580031AA0B /* getBandSpeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getBandSpeedTests.m; sourceTree = "<group>"; };
+		E23940AE198A32A60031AA0B /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		E23940AF198A32A60031AA0B /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		E23940B0198A32A60031AA0B /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		E23940B1198A32A60031AA0B /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2394081198A32570031AA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2394088198A32570031AA0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2394091198A32580031AA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2394096198A32580031AA0B /* XCTest.framework in Frameworks */,
+				E239409C198A32580031AA0B /* libgetBandSpeed.a in Frameworks */,
+				E2394099198A32580031AA0B /* UIKit.framework in Frameworks */,
+				E2394097198A32580031AA0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E239407B198A32570031AA0B = {
+			isa = PBXGroup;
+			children = (
+				E2394089198A32570031AA0B /* getBandSpeed */,
+				E23940AD198A32920031AA0B /* AsynSocket */,
+				E239409D198A32580031AA0B /* getBandSpeedTests */,
+				E2394086198A32570031AA0B /* Frameworks */,
+				E2394085198A32570031AA0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2394085198A32570031AA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2394084198A32570031AA0B /* libgetBandSpeed.a */,
+				E2394094198A32580031AA0B /* getBandSpeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2394086198A32570031AA0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2394087198A32570031AA0B /* Foundation.framework */,
+				E2394095198A32580031AA0B /* XCTest.framework */,
+				E2394098198A32580031AA0B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2394089198A32570031AA0B /* getBandSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				E239408C198A32570031AA0B /* getBandSpeed.h */,
+				E239408E198A32570031AA0B /* getBandSpeed.m */,
+				E239408A198A32570031AA0B /* Supporting Files */,
+			);
+			path = getBandSpeed;
+			sourceTree = "<group>";
+		};
+		E239408A198A32570031AA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E239408B198A32570031AA0B /* getBandSpeed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E239409D198A32580031AA0B /* getBandSpeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23940A3198A32580031AA0B /* getBandSpeedTests.m */,
+				E239409E198A32580031AA0B /* Supporting Files */,
+			);
+			path = getBandSpeedTests;
+			sourceTree = "<group>";
+		};
+		E239409E198A32580031AA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E239409F198A32580031AA0B /* getBandSpeedTests-Info.plist */,
+				E23940A0198A32580031AA0B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E23940AD198A32920031AA0B /* AsynSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E23940AE198A32A60031AA0B /* AsyncSocket.h */,
+				E23940AF198A32A60031AA0B /* AsyncSocket.m */,
+				E23940B0198A32A60031AA0B /* AsyncUdpSocket.h */,
+				E23940B1198A32A60031AA0B /* AsyncUdpSocket.m */,
+			);
+			name = AsynSocket;
+			path = getBandSpeed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2394083198A32570031AA0B /* getBandSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23940A7198A32580031AA0B /* Build configuration list for PBXNativeTarget "getBandSpeed" */;
+			buildPhases = (
+				E2394080198A32570031AA0B /* Sources */,
+				E2394081198A32570031AA0B /* Frameworks */,
+				E2394082198A32570031AA0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getBandSpeed;
+			productName = getBandSpeed;
+			productReference = E2394084198A32570031AA0B /* libgetBandSpeed.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2394093198A32580031AA0B /* getBandSpeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23940AA198A32580031AA0B /* Build configuration list for PBXNativeTarget "getBandSpeedTests" */;
+			buildPhases = (
+				E2394090198A32580031AA0B /* Sources */,
+				E2394091198A32580031AA0B /* Frameworks */,
+				E2394092198A32580031AA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E239409B198A32580031AA0B /* PBXTargetDependency */,
+			);
+			name = getBandSpeedTests;
+			productName = getBandSpeedTests;
+			productReference = E2394094198A32580031AA0B /* getBandSpeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E239407C198A32570031AA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ditaon;
+			};
+			buildConfigurationList = E239407F198A32570031AA0B /* Build configuration list for PBXProject "getBandSpeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E239407B198A32570031AA0B;
+			productRefGroup = E2394085198A32570031AA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2394083198A32570031AA0B /* getBandSpeed */,
+				E2394093198A32580031AA0B /* getBandSpeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2394092198A32580031AA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23940A2198A32580031AA0B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2394080198A32570031AA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23940B3198A32A60031AA0B /* AsyncUdpSocket.m in Sources */,
+				E239408F198A32570031AA0B /* getBandSpeed.m in Sources */,
+				E23940B2198A32A60031AA0B /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2394090198A32580031AA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23940A4198A32580031AA0B /* getBandSpeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E239409B198A32580031AA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2394083198A32570031AA0B /* getBandSpeed */;
+			targetProxy = E239409A198A32580031AA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E23940A0198A32580031AA0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23940A1198A32580031AA0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E23940A5198A32580031AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E23940A6198A32580031AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23940A8198A32580031AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/getBandSpeed.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getBandSpeed/getBandSpeed-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E23940A9198A32580031AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/getBandSpeed.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getBandSpeed/getBandSpeed-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E23940AB198A32580031AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getBandSpeed/getBandSpeed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "getBandSpeedTests/getBandSpeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E23940AC198A32580031AA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getBandSpeed/getBandSpeed-Prefix.pch";
+				INFOPLIST_FILE = "getBandSpeedTests/getBandSpeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E239407F198A32570031AA0B /* Build configuration list for PBXProject "getBandSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23940A5198A32580031AA0B /* Debug */,
+				E23940A6198A32580031AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23940A7198A32580031AA0B /* Build configuration list for PBXNativeTarget "getBandSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23940A8198A32580031AA0B /* Debug */,
+				E23940A9198A32580031AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E23940AA198A32580031AA0B /* Build configuration list for PBXNativeTarget "getBandSpeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23940AB198A32580031AA0B /* Debug */,
+				E23940AC198A32580031AA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E239407C198A32570031AA0B /* Project object */;
+}

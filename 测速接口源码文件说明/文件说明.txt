@@ -1,0 +1,5 @@
+stdafx.h、stdafx.cpp：声明定义全局变量
+
+SocketMgr.h、SocketMgr.cpp：测速管理类
+
+SpeedTest.cpp：导出方法实现文件
